@@ -6,7 +6,6 @@ using System.Linq;
 using System;
 using UnityEditorInternal;
 using System.Reflection;
-//editby :rabbit_candy
 
 [CustomEditor(typeof(MeshRenderer))]
 public class MashLayer_editor : Editor
@@ -34,7 +33,7 @@ public class MashLayer_editor : Editor
         
             if (auto_all)
             {
-                //ren.sortingLayerName = "ramune_lay2";
+               
 
                 ren.sortingLayerID = layerID1[layerID1.Length - 1];
                 ren.sortingOrder = 32767;
