@@ -5,7 +5,7 @@ using UnityEditor;
 using System;
 using UnityEditorInternal;
 using System.Reflection;
-//editby :rabbit_candy
+
 
 [CustomEditor(typeof(SkinnedMeshRenderer))]
 public class SkinMashLayer_editor : Editor
@@ -32,7 +32,7 @@ public class SkinMashLayer_editor : Editor
         
             if (auto_all)
             {
-                //ren.sortingLayerName = "ramune_lay2";
+               
 
                 ren.sortingLayerID = layerID1[layerID1.Length - 1];
                 ren.sortingOrder = 32767;
@@ -91,7 +91,7 @@ public class SkinMashLayer_editor : Editor
                     {
 
                         ren.sortingOrder = OnMax_ramuneUWU || layerOder > 32767 ? 32767 : layerOder;
-                        //OnMax = false;
+                       
                     }
                     EditorGUILayout.EndHorizontal();
                     //end
